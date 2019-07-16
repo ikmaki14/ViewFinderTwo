@@ -14,6 +14,7 @@
 		7E193EDC22DE0E8700646173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E193EDA22DE0E8700646173 /* LaunchScreen.storyboard */; };
 		7E193EE722DE0E8700646173 /* ViewFinderTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193EE622DE0E8700646173 /* ViewFinderTwoTests.swift */; };
 		7E193EF222DE0E8700646173 /* ViewFinderTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193EF122DE0E8700646173 /* ViewFinderTwoUITests.swift */; };
+		7E193F0022DE126200646173 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193EFF22DE126200646173 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7E193EED22DE0E8700646173 /* ViewFinderTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFinderTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E193EF122DE0E8700646173 /* ViewFinderTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderTwoUITests.swift; sourceTree = "<group>"; };
 		7E193EF322DE0E8700646173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E193EFF22DE126200646173 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7E193EDA22DE0E8700646173 /* LaunchScreen.storyboard */,
 				7E193EDD22DE0E8700646173 /* Info.plist */,
 				7E193ED522DE0E8700646173 /* ViewFinderTwo.xcdatamodeld */,
+				7E193EFF22DE126200646173 /* AddPhotoViewController.swift */,
 			);
 			path = ViewFinderTwo;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E193ED722DE0E8700646173 /* ViewFinderTwo.xcdatamodeld in Sources */,
+				7E193F0022DE126200646173 /* AddPhotoViewController.swift in Sources */,
 				7E193ECF22DE0E8700646173 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
