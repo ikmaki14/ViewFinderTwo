@@ -12,7 +12,7 @@
         <!--ViewFinderTwo-->
         <scene sceneID="Ohy-2x-xuK">
             <objects>
-                <tableViewController id="6Mv-cE-qaZ" sceneMemberID="viewController">
+                <tableViewController id="6Mv-cE-qaZ" customClass="PhotoTableViewController" customModule="ViewFinderTwo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dIk-w4-Ca4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,6 +75,9 @@
                                 <rect key="frame" x="170" y="389" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="savePhoto:" destination="EWO-f2-WPI" eventType="touchUpInside" id="DMd-87-7Le"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5h-KQ-AfZ">
                                 <rect key="frame" x="198" y="477" width="92" height="30"/>
