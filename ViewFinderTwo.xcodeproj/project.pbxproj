@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7E17763F22DE1C5600567EE6 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17763E22DE1C5600567EE6 /* PhotoTableViewController.swift */; };
+		7E17764122DE229100567EE6 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E17764022DE229100567EE6 /* PhotoDetailViewController.swift */; };
 		7E193ECF22DE0E8700646173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E193ECE22DE0E8700646173 /* AppDelegate.swift */; };
 		7E193ED422DE0E8700646173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E193ED222DE0E8700646173 /* Main.storyboard */; };
 		7E193ED722DE0E8700646173 /* ViewFinderTwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E193ED522DE0E8700646173 /* ViewFinderTwo.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		7E17763E22DE1C5600567EE6 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		7E17764022DE229100567EE6 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		7E193ECB22DE0E8700646173 /* ViewFinderTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewFinderTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E193ECE22DE0E8700646173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E193ED322DE0E8700646173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				7E193ED522DE0E8700646173 /* ViewFinderTwo.xcdatamodeld */,
 				7E193EFF22DE126200646173 /* AddPhotoViewController.swift */,
 				7E17763E22DE1C5600567EE6 /* PhotoTableViewController.swift */,
+				7E17764022DE229100567EE6 /* PhotoDetailViewController.swift */,
 			);
 			path = ViewFinderTwo;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				7E193ED722DE0E8700646173 /* ViewFinderTwo.xcdatamodeld in Sources */,
 				7E193F0022DE126200646173 /* AddPhotoViewController.swift in Sources */,
 				7E17763F22DE1C5600567EE6 /* PhotoTableViewController.swift in Sources */,
+				7E17764122DE229100567EE6 /* PhotoDetailViewController.swift in Sources */,
 				7E193ECF22DE0E8700646173 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
